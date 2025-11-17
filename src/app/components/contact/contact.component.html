@@ -1,0 +1,40 @@
+<p>contact works!</p>
+<div class="mat-card">
+  <header class="card-header">
+    <h3>İletişim</h3>
+    <p class="muted">Sorularınız veya geri bildirim için bize yazın.</p>
+  </header>
+
+  <form class="form" novalidate>
+    <label class="form-row">
+      <span class="label">Ad</span>
+      <input class="input" type="text" name="firstName" placeholder="Adınız" />
+    </label>
+
+    <label class="form-row">
+      <span class="label">Soyad</span>
+      <input class="input" type="text" name="lastName" placeholder="Soyadınız" />
+    </label>
+
+    <label class="form-row">
+      <span class="label">E‑posta</span>
+      <input class="input" type="email" name="email" placeholder="email@ornekgiden.com" />
+    </label>
+
+    <label class="form-row" style="grid-column: 1 / -1;">
+      <span class="label">Mesaj</span>
+      <textarea class="input" name="message" rows="5" placeholder="Mesajınızı yazın..."></textarea>
+    </label>
+
+    <div class="actions" style="grid-column: 1 / -1;">
+      <button class="btn" type="submit">Gönder</button>
+      <button class="btn outline" type="reset">Sıfırla</button>
+      <button class="btn warning" type="button">Önizle</button>
+    </div>
+  </form>
+
+  <section class="status">
+    <div>Form gönderimi: <strong>Hazır</strong></div>
+    <div>Sunucu durumu: <strong>Çevrim içi</strong></div>
+  </section>
+</div>
